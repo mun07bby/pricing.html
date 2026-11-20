@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+/* Header & Navbar */
+header {
+  background-color: #003153;
+  padding: 15px 30px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+nav a:hover {
+  color: #FF6600;
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+}
+
+h1, h2 {
+  color: #003153;
+  margin-bottom: 20px;
+}
+
+/* 3 Product Cards in a Row (inline-block) */
+.cards-container {
+  font-size: 0;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  margin-right: 2%;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-top: 4px solid #FF6600;
+  padding: 20px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card h3 {
+  color: #003153;
+  margin-bottom: 10px;
+}
+
+/* Pricing Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333333;
+  padding: 10px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #003153;
+  color: #ffffff;
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+  background-color: #003153;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
